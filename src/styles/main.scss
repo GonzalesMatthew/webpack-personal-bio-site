@@ -3,7 +3,30 @@
 
 body {
   background-color: antiquewhite;
-  color: brown;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.about-me {
+}
+
+.skills-tools {
+  margin: auto;
+  padding: 20px;
+  /* text-align: center; */
+}
+
+.contact-info {
   text-align: center;
-  margin-top: 100px;
+}
+
+ul {
+  list-style: none;
+}
+
+#technologiesPage{
+  display: none;
+}
+
+#projectsPage{
+  display: none;
 }

@@ -1,7 +1,7 @@
 const projects = [
   {
     title: 'Cool Project',
-    screenshot: 'images/code_image.jpeg',
+    screenshot: '',
     description: 'This is the best project', // A good project description includes 'the what', 'the why', and 'the how'.
     technologiesUsed:
       'HTML, CSS, Vanilla JavaScript, Version Control with Github',
@@ -15,7 +15,7 @@ const projects = [
 
   {
     title: 'Cool Project',
-    screenshot: 'images/code_image.jpeg',
+    screenshot: '',
     description: 'This is the best project', // A good project description includes 'the what', 'the why', and 'the how'.
     technologiesUsed:
       'HTML, CSS, Vanilla JavaScript, Version Control with Github',
@@ -27,7 +27,7 @@ const projects = [
   },
   {
     title: 'Cool Project',
-    screenshot: 'images/code_image.jpeg',
+    screenshot: '',
     description: 'This is the best project', // A good project description includes 'the what', 'the why', and 'the how'.
     technologiesUsed:
       'HTML, CSS, Vanilla JavaScript, Version Control with Github',
@@ -39,7 +39,7 @@ const projects = [
   },
   {
     title: 'Cool Project',
-    screenshot: 'images/code_image.jpeg',
+    screenshot: '',
     description: 'This is the best project', // A good project description includes 'the what', 'the why', and 'the how'.
     technologiesUsed:
       'HTML, CSS, Vanilla JavaScript, Version Control with Github',
@@ -51,7 +51,7 @@ const projects = [
   },
   {
     title: 'Cool Project',
-    screenshot: 'images/code_image.jpeg',
+    screenshot: '',
     description: 'This is the best project', // A good project description includes 'the what', 'the why', and 'the how'.
     technologiesUsed:
       'HTML, CSS, Vanilla JavaScript, Version Control with Github',

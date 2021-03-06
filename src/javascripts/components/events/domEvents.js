@@ -1,5 +1,10 @@
 const domEvents = () => {
   document.querySelector('body').addEventListener('click', (e) => {
+    if (e.target.id.includes('brand')) {
+      document.querySelector('#bioPage').style.display = 'block';
+      document.querySelector('#projectsPage').style.display = 'block';
+      document.querySelector('#technologiesPage').style.display = 'block';
+    }
     if (e.target.id.includes('bioNav')) {
       document.querySelector('#bioPage').style.display = 'block';
       document.querySelector('#projectsPage').style.display = 'none';

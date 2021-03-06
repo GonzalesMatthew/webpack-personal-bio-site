@@ -6,22 +6,16 @@ const createProjectCards = (arrayOfObjects) => {
   arrayOfObjects.forEach((object) => {
     if (object.available === true) {
       domString += `
-      <div class='card mb-3' style='max-width: 540px;'>
-        <div class='row g-0'>
-          <div class='col-md-4' style='max-width: 540px;'>
-            <img src='${object.image}' alt='project screenshot'>
+      <div class='card col-sm-3 mb-3'>
+        <img src='${object.image}' class ='image-fluid' alt='project screenshot'>
+          <div class='card-body'>
+            <h5 class='card-title'>${object.title}</h5>
+            <p class='card-text'>${object.description}</p>
+            <p class='card-text'><small class='text-muted'>${object.technologiesUsed}</small></p>
+            <p class='card-text'><small class='text-muted'>${object.netlify}</small></p>
+            <p class='card-text'><small class='text-muted'>${object.githubUrl}</small></p>
+            <p class='card-text'><small class='text-muted'>${object.loom}</small></p>
           </div>
-          <div class='col-md-8'>
-            <div class='card-body'>
-              <h5 class='card-title'>${object.title}</h5>
-              <p class='card-text'>${object.description}</p>
-              <p class='card-text'><small class='text-muted'>${object.technologiesUsed}</small></p>
-              <p class='card-text'><small class='text-muted'>${object.netlify}</small></p>
-              <p class='card-text'><small class='text-muted'>${object.githubUrl}</small></p>
-              <p class='card-text'><small class='text-muted'>${object.loom}</small></p>
-            </div>
-          </div>
-        </div>
       </div>`;
     }
   });

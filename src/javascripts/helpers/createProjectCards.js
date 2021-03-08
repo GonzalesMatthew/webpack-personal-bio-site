@@ -1,6 +1,10 @@
 import printToDom from './printToDom';
 
 const createProjectCards = (arrayOfObjects) => {
+  document.querySelector('#projectsPage').innerHTML = `
+  <h2>Projects</h2>
+  <br>
+  <div id='project-cards' class="row m-4 d-flex justify-content-center"></div>`;
   let domString = '';
 
   arrayOfObjects.forEach((object) => {
@@ -19,7 +23,7 @@ const createProjectCards = (arrayOfObjects) => {
       </div>`;
     }
   });
-  printToDom('#projectsPage', domString);
+  printToDom('#project-cards', domString);
 };
 
 export default createProjectCards;

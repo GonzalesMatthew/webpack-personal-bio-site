@@ -11,10 +11,10 @@ const createProjectCards = (arrayOfObjects) => {
           <div class='card-body'>
             <h5 class='card-title'>${object.title}</h5>
             <p class='card-text'>${object.description}</p>
-            <p class='card-text'><small class='text-muted'>${object.technologiesUsed}</small></p>
-            <p class='card-text'><small class='text-muted'>${object.netlify}</small></p>
-            <p class='card-text'><small class='text-muted'>${object.githubUrl}</small></p>
-            <p class='card-text'><small class='text-muted'>${object.loom}</small></p>
+            <p class='card-text'><small class='text-muted'><u>Technologies Used:</u><br>${object.technologiesUsed}</small></p>
+            <p class='card-text'><small class='text-muted'><a href='${object.netlify}'>Deployed Site</a></small></p>
+            <p class='card-text'><small class='text-muted'><a href='${object.githubUrl}'>GitHub Repo</a></small></p>
+            <p class='card-text'><small class='text-muted'><a href='${object.loom}'>Video Walkthrough of App</a></small></p>
           </div>
       </div>`;
     }

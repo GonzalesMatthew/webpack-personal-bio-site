@@ -6,9 +6,9 @@ import createProjectCards from './helpers/createProjectCards';
 import domEvents from './components/events/domEvents';
 
 const init = () => {
+  domEvents();
   navBar();
   createProjectCards(projects);
-  domEvents();
 };
 
 init();

@@ -1,24 +1,16 @@
 const domEvents = () => {
   document.querySelector('body').addEventListener('click', (e) => {
     if (e.target.id.includes('brand')) {
-      document.querySelector('#bioPage').style.display = 'block';
-      document.querySelector('#projectsPage').style.display = 'block';
-      document.querySelector('#technologiesPage').style.display = 'block';
+      console.warn('You clicked the brand');
     }
     if (e.target.id.includes('bioNav')) {
-      document.querySelector('#bioPage').style.display = 'block';
-      document.querySelector('#projectsPage').style.display = 'none';
-      document.querySelector('#technologiesPage').style.display = 'none';
+      console.warn('You clicked the bioNav');
     }
     if (e.target.id.includes('projectsNav')) {
-      document.querySelector('#bioPage').style.display = 'none';
-      document.querySelector('#projectsPage').style.display = 'block';
-      document.querySelector('#technologiesPage').style.display = 'none';
+      console.warn('You clicked the projectsNav');
     }
     if (e.target.id.includes('technologyNav')) {
-      document.querySelector('#bioPage').style.display = 'none';
-      document.querySelector('#projectsPage').style.display = 'none';
-      document.querySelector('#technologiesPage').style.display = 'block';
+      console.warn('You clicked the technologyNav');
     }
   });
 };

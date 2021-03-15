@@ -10,7 +10,7 @@ const createProjectCards = (arrayOfObjects) => {
   arrayOfObjects.forEach((object) => {
     if (object.available === true) {
       domString += `
-      <div class='card col-sm-3 mb-3'>
+      <div class='card v-25 m-3 p-4 shadow-lg rounded'>
         <img src='${object.image}' class ='image-fluid' alt='project screenshot'>
           <div class='card-body'>
             <h5 class='card-title'>${object.title}</h5>

@@ -1,4 +1,4 @@
-const navBar = () => {
+function navBar() {
   document.querySelector('#navigation').innerHTML = `
     <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark mb-4">
       <a class="navbar-brand title" href="#" id="brand">Matthew Gonzales</a>
@@ -16,6 +16,6 @@ const navBar = () => {
         </li>
       </ul>
     </nav>`;
-};
+}
 
 export default navBar;

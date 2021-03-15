@@ -1,4 +1,4 @@
-const populateBio = () => {
+function populateBio() {
   document.querySelector('#bio').innerHTML = `
     <h2>Bio</h2>
     <p>
@@ -12,6 +12,6 @@ const populateBio = () => {
       new recipes, and studying financial markets.
     </p>
     `;
-};
+}
 
 export default populateBio;

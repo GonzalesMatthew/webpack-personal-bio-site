@@ -1,14 +1,14 @@
 import 'bootstrap'; // import bootstrap elements and js
 import '../styles/main.scss';
 import navBar from './components/navBar';
-import projects from './helpers/data/projects';
-import createProjectCards from './helpers/createProjectCards';
 import domEvents from './components/events/domEvents';
+import showProjects from './components/projects';
+import getProjects from './helpers/data/projectsData';
 
 const init = () => {
   domEvents();
   navBar();
-  createProjectCards(projects);
+  getProjects().then((projects) => showProjects(projects));
 };
 
 init();

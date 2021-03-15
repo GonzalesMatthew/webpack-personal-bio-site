@@ -1,21 +1,16 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&family=Roboto&display=swap');
 
 body {
   background-color: rgba(67, 132, 170, 0.733);
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
-// .skills-tools {
-//   margin: auto;
-//   padding: 20px;
-//   /* text-align: center; */
-// }
-
 .contact-info {
-  text-align: center;
+  // text-align: center;
 }
 
 ul {
-  list-style: none;
+  // list-style: none;
 }
